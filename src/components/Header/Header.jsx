@@ -29,7 +29,7 @@ const Header = () => {
           </li>
           <li>
           {styles.buyButton}
-          <a href="https://example.com/explore" target="_blank" rel="noreferrer" className={styles.exploreButton}>
+          <a href="https://pancakeswap.finance/swap" target="_blank" rel="noreferrer" className={styles.exploreButton}>
           Buy Now
         </a>
           </li>

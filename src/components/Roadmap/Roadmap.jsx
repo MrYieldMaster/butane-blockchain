@@ -10,6 +10,8 @@ const Roadmap = () => {
         { icon: '🚀', description: 'Butane Chain Launch' },
         { icon: '🔗', description: 'Mainnet Release' },
         { icon: '💡', description: 'Smart Contract Support' },
+        { icon: '🔐', description: 'Security Audits'
+        }
       ],
     },
     {
@@ -18,6 +20,8 @@ const Roadmap = () => {
         { icon: '💰', description: 'Staking Implementation' },
         { icon: '🌉', description: 'Cross-Chain Bridge' },
         { icon: '🔐', description: 'CertiK Audit' },
+        { icon: '🔐', description: 'Hacken Audit' },
+        { icon: '🔐', description: 'TechRate Audit' }
       ],
     },
     {
@@ -26,6 +30,8 @@ const Roadmap = () => {
         { icon: '🎮', description: 'Decentralized Gaming Platform' },
         { icon: '🌐', description: 'Decentralized Marketplace' },
         { icon: '🚀', description: 'NFT Platform Launch' },
+        { icon: '🔐', description: 'PeckShield Audit' }
+        
       ],
     },
     {
@@ -34,12 +40,13 @@ const Roadmap = () => {
         { icon: '🌟', description: 'Ecosystem Expansion' },
         { icon: '🔧', description: 'Developer Tools and SDKs' },
         { icon: '🤝', description: 'Strategic Partnerships' },
+        { icon: '🔐', description: 'Certora Audit' }
       ],
     },
   ];
 
   return (
-    <section className={styles.roadmap}>
+    <section id="roadmap" className={styles.roadmap}>
       <h2>Roadmap</h2>
       <div className={styles.timeline}>
         {milestones.map((milestone, index) => (

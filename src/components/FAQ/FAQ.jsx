@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from './FAQ.module.css';
 
+
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -43,7 +44,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className={styles.faq}>
+    <section id="faq" className={styles.faq}>
       <h2>FAQ</h2>
       <div className={styles.questions}>
         {questions.map((item, index) => (

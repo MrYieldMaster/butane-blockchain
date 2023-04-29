@@ -7,7 +7,7 @@ import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer id="footer" className={styles.footer}>
       <div className={styles.socials}>
         {/* Replace # with your social media links */}
         <a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
