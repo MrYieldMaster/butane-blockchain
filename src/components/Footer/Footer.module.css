@@ -33,7 +33,7 @@
   }
   
   .exploreButton {
-    background-color: #fb5f17;
+    background-color: #131212;
     color: #fff;
     text-decoration: none;
     padding: 8px 16px;
@@ -48,5 +48,5 @@
   }
   
   .exploreButton:hover {
-    background-color: #0e1012;
+    background-color: #f45d12;
   }
