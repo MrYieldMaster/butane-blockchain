@@ -1,0 +1,49 @@
+/* Footer.module.css */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #fc5108;
+  }
+  
+  .email a {
+    color: #e42f2f;
+    text-decoration: none;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .exploreButton {
+    background-color: #fb5f17;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .exploreButton:hover {
+    background-color: #0e1012;
+  }

@@ -1,0 +1,54 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo-img {
+    width: 50px;
+  }
+  
+  .logo a img {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    color: #f87823;
+  }
+  
+  .telegramIcon {
+    font-size: 24px;
+    color: #020c17;
+    margin-right: 10px;
+    justify-content: center;
+  }
+  
+
+  .buyButton {
+    background-color: #f87823;
+    color: #fff;
+    border: 1px solid #f87823;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
