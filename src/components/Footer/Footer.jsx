@@ -2,23 +2,28 @@
 import React from 'react';
 import styles from './Footer.module.css';
 
+
+
+
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.socials}>
         {/* Replace # with your social media links */}
         <a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
-          <i className={`fab fa-facebook-f ${styles.icon}`}></i>
-        </a>
-        <a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
-          <i className={`fab fa-twitter ${styles.icon}`}></i>
-        </a>
-        <a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
-          <i className={`fab fa-linkedin-in ${styles.icon}`}></i>
-        </a>
-        <a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
-          <i className={`fab fa-instagram ${styles.icon}`}></i>
-        </a>
+  <i className={`fab fa-telegram-plane ${styles.icon}`}></i>
+</a>
+<a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
+  <i className={`fab fa-twitter ${styles.icon}`}></i>
+</a>
+<a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
+  <i className={`fab fa-linkedin-in ${styles.icon}`}></i>
+</a>
+<a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
+  <i className={`fab fa-instagram ${styles.icon}`}></i>
+</a>
+
+
       </div>
       <div className={styles.email}>
         {/* Replace mailto: with your email address */}

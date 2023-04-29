@@ -11,12 +11,15 @@
   
   .socials {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 10px;
   }
-  
+ 
   .icon {
-    font-size: 24px;
-    color: #fc5108;
+    width: 30px;
+    height: 30px;
+    color: #121010;
+    transition: all 0.3s ease-in-out;
   }
   
   .email a {
