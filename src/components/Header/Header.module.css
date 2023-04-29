@@ -37,9 +37,8 @@
   }
   
   .telegramIcon {
-    font-size: 24px;
+    width: 30px;
     color: #020c17;
-    margin-right: 10px;
     justify-content: center;
   }
   
@@ -51,4 +50,15 @@
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    color: #121010;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .icon:hover {
+    color: #f87823;
   }

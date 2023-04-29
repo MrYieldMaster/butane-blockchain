@@ -2,6 +2,8 @@
 import React from 'react';
 import styles from './Header.module.css';
 import HeaderLogo from '../../assets/images/headerLogo1.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   return (
@@ -36,7 +38,7 @@ const Header = () => {
           <li>
             {/* Replace # with your Telegram link */}
             <a href="https://t.me/butanechain" target="_blank" rel="noreferrer">
-              <i className={`fab fa-telegram-plane ${styles.telegramIcon}`}></i>
+              <FontAwesomeIcon icon={faTelegramPlane} className={styles.icon} />
             </a>
           </li>
         </ul>
