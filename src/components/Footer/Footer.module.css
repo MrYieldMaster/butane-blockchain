@@ -16,8 +16,8 @@
   }
  
   .icon {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     color: #121010;
     transition: all 0.3s ease-in-out;
   }
@@ -52,5 +52,29 @@
   }
   
   .exploreButton:hover {
-    background-color: #f45d12;
+    background-color: #f87823;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 30px;
+    }
+  
+    .socials {
+      gap: 30px;
+    }
+  
+    .icon {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .buttons {
+      gap: 10px;
+    }
+  
+    .exploreButton {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
   }

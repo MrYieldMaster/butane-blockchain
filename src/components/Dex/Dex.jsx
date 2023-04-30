@@ -11,7 +11,7 @@ const Dex = () => {
         alt="Decentralized Exchange"
         className={styles.image}
       />
-      <h2>Butane Decentralized Exchange (DEX)</h2>
+      <h2>Butane  (DEX)</h2>
       <p>
         The Butane Decentralized Exchange allows users to trade tokens securely
         and efficiently without relying on a centralized authority. Experience

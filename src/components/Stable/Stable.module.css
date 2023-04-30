@@ -30,7 +30,11 @@
   }
   
   button {
-    background-color: #fb5f17;
+    background-image: linear-gradient(
+    to right,
+    rgba(82, 156, 255, 0.8) 0%,
+    rgb(248, 57, 40) 100%
+  );
     color: #fff;
     border: none;
     outline: none;
@@ -42,6 +46,10 @@
   }
   
   button:hover {
-    background-color: #0a0b0b;
+    background-image: linear-gradient(
+    to right,
+    rgba(255, 59, 33, 0.8) 0%,
+    rgb(248, 248, 248) 100%
+  );
   }
   

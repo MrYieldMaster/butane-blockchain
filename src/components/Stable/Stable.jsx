@@ -11,7 +11,7 @@ const Stable = () => {
         alt="Stable Machine"
         className={styles.image}
       />
-      <h2>Stable Machine - BUSD Yield Farm</h2>
+      <h2>Stable Machine </h2>
       <p>
         Stable Machine is a yield farm based on BUSD that can give you up to 8%
         daily! Compound bonuses that add 3% to your daily compound. You can
