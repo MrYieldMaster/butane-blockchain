@@ -1,12 +1,13 @@
 // Game.jsx
 import React from 'react';
 import styles from './Game.module.css';
+import Image from '../../assets/images/game.png';
 
 const Game = () => {
   return (
     <section className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with the path to your image
+        src={Image}
         alt="Game"
         className={styles.image}
       />

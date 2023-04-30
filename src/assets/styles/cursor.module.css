@@ -1,0 +1,10 @@
+/* cursor.module.css */
+body {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40"><polygon points="20,2 37,11 37,29 20,38 3,29 3,11" stroke="%23FFC107" stroke-width="2" fill="%23FFC107" /><text x="12" y="28" font-family="Verdana" font-size="18" fill="black">₿</text></svg>'), auto;
+  }
+  
+  body a,
+  body button {
+    cursor: crosshair;
+  }
+  

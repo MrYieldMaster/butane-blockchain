@@ -1,12 +1,13 @@
 // Dex.jsx
 import React from 'react';
 import styles from './Dex.module.css';
+import Image from '../../assets/images/dex.png'
 
 const Dex = () => {
   return (
     <section className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with the path to your image
+        src={Image}
         alt="Decentralized Exchange"
         className={styles.image}
       />

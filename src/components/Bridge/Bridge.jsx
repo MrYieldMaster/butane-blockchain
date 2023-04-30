@@ -1,12 +1,13 @@
 // Bridge.jsx
 import React from 'react';
 import styles from '../Bridge/Bridge.module.css';
+import Image from '../../assets/images/bridge.png';
 
 const Bridge = () => {
   return (
     <div className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with your image URL
+        src={Image}
         alt="Bridge"
         className={styles.image}
       />

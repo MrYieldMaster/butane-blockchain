@@ -1,12 +1,13 @@
 // Casino.jsx
 import React from 'react';
 import styles from './Casino.module.css';
+import Image from '../../assets/images/casino.png';
 
 const Casino = () => {
   return (
     <section className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with the path to your image
+        src={Image}
         alt="Casino"
         className={styles.image}
       />

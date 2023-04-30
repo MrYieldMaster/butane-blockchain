@@ -1,16 +1,17 @@
 // GasToken.jsx
 import React from 'react';
 import styles from './GasToken.module.css';
+import Image from '../../assets/images/token.png';
 
 const GasToken = () => {
   return (
     <section className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with the path to your image
+        src={Image}
         alt="Gas Token"
         className={styles.image}
       />
-      <h2>$GAS - Butane SmartChain Native Coin</h2>
+      <h2>$GAS - Native Coin</h2>
       <p>
         $GAS is the native coin of Butane SmartChain. The coin is available on
         BSC as well as the native chain. To come to the native chain, you need
@@ -20,6 +21,8 @@ const GasToken = () => {
         delegator.
       </p>
       <p>
+        Butane Contract 0x........
+        <br />
         BSC Contract: 0x........
         <br />
         ETH Contract: 0x........

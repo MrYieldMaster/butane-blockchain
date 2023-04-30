@@ -1,12 +1,13 @@
 // Blockchain.jsx
 import React from 'react';
 import styles from '../Blockchain/Blockchain.module.css';
+import Image from '../../assets/images/blockchain.png';
 
 const Blockchain = () => {
     return (
       <div className={styles.card}>
-        <img
-          src="https://via.placeholder.com/300x150" // Replace with your image URL
+        <img 
+          src={Image}
           alt="Blockchain"
           className={styles.image}
         />

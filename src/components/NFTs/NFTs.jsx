@@ -1,16 +1,17 @@
 // NFTs.jsx
 import React from 'react';
 import styles from './NFTs.module.css';
+import Image from '../../assets/images/nft.png';
 
 const NFTs = () => {
   return (
     <section className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with the path to your image
+        src={Image}
         alt="NFTs"
         className={styles.image}
       />
-      <h2>Butane Chain NFTs</h2>
+      <h2>$GAS Chain NFTs</h2>
       <p>
         Discover and collect unique digital art and other digital assets on the
         Butane Chain NFT platform. Our NFT marketplace provides artists, creators,

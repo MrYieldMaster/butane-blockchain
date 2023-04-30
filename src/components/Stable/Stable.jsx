@@ -1,12 +1,13 @@
 // Stable.jsx
 import React from 'react';
 import styles from './Stable.module.css';
+import Image from '../../assets/images/stable.png';
 
 const Stable = () => {
   return (
     <section className={styles.card}>
       <img
-        src="https://via.placeholder.com/300x150" // Replace with the path to your image
+        src={Image}
         alt="Stable Machine"
         className={styles.image}
       />

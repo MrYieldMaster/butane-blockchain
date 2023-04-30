@@ -1,5 +1,6 @@
 @import './assets/styles/scrollbar.module.css';
 
+
 .App {
   text-align: center;
   background-color: rgb(208, 9, 9);
@@ -42,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+
