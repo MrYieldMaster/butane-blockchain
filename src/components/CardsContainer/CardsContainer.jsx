@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './CardsContainer.module.css';
 import Blockchain from '../Blockchain/Blockchain';
-import Bride from '../Bridge/Bridge';
+import Bridge from '../Bridge/Bridge';
 import Casino from '../Casino/Casino';
 import Dex from '../Dex/Dex';
 import Game from '../Game/Game';
@@ -14,16 +14,16 @@ import Stable from '../Stable/Stable';
 const CardsContainer = () => {
     return (
         <div id="cardscontainer" className={styles.container}>
-            <Blockchain />
-            <Bride />
-            <Stable />
-            <GasToken />
-            <NFTs />
-            <Miner />
-            <Dex />
-            <Game />
-            <Casino />
-        </div>
+      <div data-aos="fade-up"><Blockchain /></div>
+      <div data-aos="fade-up"><Bridge /></div>
+      <div data-aos="fade-up"><Stable /></div>
+      <div data-aos="fade-up"><GasToken /></div>
+      <div data-aos="fade-up"><NFTs /></div>
+      <div data-aos="fade-up"><Miner /></div>
+      <div data-aos="fade-up"><Dex /></div>
+      <div data-aos="fade-up"><Game /></div>
+      <div data-aos="fade-up"><Casino /></div>
+    </div>
     )
 }
 

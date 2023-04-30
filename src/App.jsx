@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './App.module.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -8,7 +8,16 @@ import CardsContainer from './components/CardsContainer/CardsContainer';
 import Roadmap from './components/Roadmap/Roadmap';
 import FAQ from './components/FAQ/FAQ';
 
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div className={styles.App}>
       <Header />

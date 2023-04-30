@@ -50,7 +50,8 @@ const Roadmap = () => {
       <h2>Roadmap</h2>
       <div className={styles.timeline}>
         {milestones.map((milestone, index) => (
-          <div key={index} className={styles.milestone}>
+          <div key={index} data-aos="fade-down-left">
+          <div className={styles.milestone}>
             <h3>{milestone.title}</h3>
             <ul>
               {milestone.items.map((item, itemIndex) => (
@@ -60,6 +61,7 @@ const Roadmap = () => {
                 </li>
               ))}
             </ul>
+          </div>
           </div>
         ))}
       </div>
