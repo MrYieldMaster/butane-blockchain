@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1>Welcome to the Butane Chain Ecosystem</h1>
+        <h1>Welcome to the Butane Ecosystem</h1>
         <p>
           Butane Chain is a blockchain designed for novices and experts alike. It
           offers an expanding range of features and tools for projects, from

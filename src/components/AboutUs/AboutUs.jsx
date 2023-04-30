@@ -5,7 +5,8 @@ import styles from './AboutUs.module.css';
 const AboutUs = () => {
   return (
     <section className={styles.aboutUs}>
-      <h2>About Us</h2>
+      <h2 data-aos="fade-up" data-aos-delay="25" >
+       About Us</h2>
       <p>
         At Butane Chain, we're dedicated to creating an inclusive and
         innovative blockchain ecosystem. Our team of experts brings together
@@ -19,3 +20,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
