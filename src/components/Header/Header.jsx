@@ -1,7 +1,7 @@
 // Header.jsx
 import React from 'react';
 import styles from './Header.module.css';
-import HeaderLogo from '../../assets/images/headerLogo1.png';
+import HeaderLogo from '../../assets/images/icon.ico';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 

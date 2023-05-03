@@ -3,15 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .logo-img {
-    width: 50px;
-    cursor : crosshair;
-  }
   
   .logo a img {
     color: #333;
@@ -30,8 +26,9 @@
   }
   
   .nav a {
-    color: #333;
+    color: #050505;
     text-decoration: none;
+    gap: 20px;
   }
   
   .nav a:hover {
@@ -42,16 +39,6 @@
     width: 30px;
     color: #020c17;
     justify-content: center;
-  }
-  
-
-  .buyButton  {
-    background-color: #fbfaf9;
-    color: #0c0b0b;
-    border: 1px solid #f87823;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
   }
 
   .exploreButton {
@@ -88,57 +75,21 @@
     border-radius: 50%;
   }
 
-  @media screen and (max-width: 268px) {
+  @media screen and (max-width: 768px) {
     .header {
-      padding: 10px 20px;
-    }
-  
-    .logo {
-      font-size: 20px;
-    }
-  
-    .nav ul {
-      display: none;
-    }
-  
-    .nav ul.active {
-      display: flex;
       flex-direction: column;
-      align-items: center;
-      background-color: #fff;
-      position: absolute;
-      top: 50px;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      width: 80%;
-      border-radius: 5px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      align-items: flex-start;
+      padding: 20px 0;
     }
-  
-    .nav ul.active li {
-      margin: 20px 0;
+
+    .logo {
+      margin-bottom: 20px;
     }
-  
-    .nav a {
-      color: #333;
+
+    .exploreButton {
+      display: column;
+      align-items: flex-start;
     }
-  
-    .nav a:hover {
-      color: #f87823;
-    }
-  
-    .nav-toggle {
-      display: block;
-      font-size: 20px;
-      color: #333;
-      cursor: pointer;
-    }
-  
-    .nav-toggle.active {
-      color: #f87823;
-    }
-  }
-  
     
+  }
   
